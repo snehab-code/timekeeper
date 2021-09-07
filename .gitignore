@@ -2,3 +2,6 @@ todo.md
 config.json
 node_modules
 unused*
+.prettierrc
+.env
+tests

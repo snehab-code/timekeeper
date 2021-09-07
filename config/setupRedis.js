@@ -1,5 +1,5 @@
 const redis = require('redis')
-const {redisHost, redisPort, redisKey} = require('../config.json')
+const {redisHost, redisPort, redisKey} = require('../server/config.json')
 
 
 const client = redis.createClient({
