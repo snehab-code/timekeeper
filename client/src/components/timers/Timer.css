@@ -1,0 +1,21 @@
+.timer:hover {
+    cursor: pointer;
+}
+
+.time-button {
+    height: 5vmin;
+    background-color: #1a202c;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid #343434;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.time-button:hover {
+    background-color: #353839;
+}
