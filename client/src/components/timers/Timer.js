@@ -91,20 +91,12 @@ const Timer = ({ location }) => {
             <p>This timer will end at {endTime}</p>
 
             <label for="rest" style={{ fontSize: '14px' }}>
-                Rest:
                 <input
-                    style={{
-                        margin: '2px',
-                        backgroundColor: '#171116',
-                        border: '0px',
-                        padding: '5px',
-                        borderRadius: '17px',
-                        color: 'white',
-                    }}
+                    autocomplete="off"
                     type="text"
                     name="restBox"
-                    value={rest}
-                    placeholder="minutes"
+                    value={rest ? rest : ''}
+                    placeholder="Rest"
                     onChange={restHandler}
                 />
             </label>

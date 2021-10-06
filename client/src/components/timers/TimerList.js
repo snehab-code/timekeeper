@@ -17,6 +17,7 @@ const TimerList = ({ userId }) => {
             <div className="timer-list">
                 {userTimers.map((timer) => (
                     <Link
+                        className="App-link"
                         to={{
                             pathname: `/timers/${timer.id}`,
                             state: { startingTime: timer.time },
