@@ -10,7 +10,7 @@ html {
 }
 
 @media (prefers-color-scheme: dark) {
-    html {
+    /* html {
         --primary-bg: #12171f;
         --primary-link: #0051f2;
         --primary-text: #ced3db;
@@ -18,7 +18,17 @@ html {
         --primary-button-hover: #29509e;
         --primary-input-bg: #404245;
         --primary-input-focus-bg: #202f45;
-    }
+    } */
+}
+
+html.dark {
+    --primary-bg: #12171f;
+    --primary-link: #0051f2;
+    --primary-text: #ced3db;
+    --primary-button: #5e6980;
+    --primary-button-hover: #29509e;
+    --primary-input-bg: #404245;
+    --primary-input-focus-bg: #202f45;
 }
 
 body {

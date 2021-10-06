@@ -1,9 +1,9 @@
-import React from 'react'
+import { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 
 const Home = (...props) => {
     return (
-        <React.Fragment>
+        <Fragment>
             <h1>Home</h1>
             <Link
                 className="App-link"
@@ -13,7 +13,7 @@ const Home = (...props) => {
             >
                 Timers
             </Link>
-        </React.Fragment>
+        </Fragment>
     )
 }
 

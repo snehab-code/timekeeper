@@ -90,9 +90,9 @@ const Timer = ({ location }) => {
 
             <p>This timer will end at {endTime}</p>
 
-            <label for="rest" style={{ fontSize: '14px' }}>
+            <label htmlFor="rest" style={{ fontSize: '14px' }}>
                 <input
-                    autocomplete="off"
+                    autoComplete="off"
                     type="text"
                     name="restBox"
                     value={rest ? rest : ''}
