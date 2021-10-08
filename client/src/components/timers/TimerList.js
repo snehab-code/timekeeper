@@ -9,7 +9,7 @@ const TimerList = ({ userId }) => {
             setUserTimers([{ id: 1, time: 7 * 3600000 }])
         }, 1000)
         return () => clearTimeout(fakeCall)
-    })
+    }, [])
 
     return (
         <div className="">

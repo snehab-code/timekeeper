@@ -8,6 +8,7 @@ const ThemeToggler = () => {
     // const [mQuery, setMQuery] = useState('dark')
 
     useEffect(() => {
+        console.log('hi')
         let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
         // console.log(mediaQuery, mediaQuery.matches)
         mediaQuery.addEventListener('change', (e) => {
@@ -20,6 +21,7 @@ const ThemeToggler = () => {
     }, [])
 
     useEffect(() => {
+        console.log('hi')
         if (isDark) {
             document.documentElement.classList.add(DARK_CLASS)
         } else {
